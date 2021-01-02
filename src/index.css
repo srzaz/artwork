@@ -11,3 +11,113 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.art {
+  height: 50%;
+  width: 50%;
+}
+
+#circle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  content: "my artwork";
+ 
+
+}
+
+.circle {
+  width: 50vh;
+  height: 500vh;
+  position: absolute;
+  border-radius: 50%;
+}
+
+
+
+#one {
+  background-color: rgba(0, 0, 225, 0.45);
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  
+
+}
+
+#two {
+  background-color: green;
+  transition: 1s;
+  opacity: 0.5;
+}
+
+#three {
+  background-color: red;
+  transition: 1s;
+  opacity: 0.6;
+}
+
+#four {
+  background-color: orange;
+  transition: 1s;
+  opacity: 0.5;
+}
+#five {
+  background-color: green;
+  transition: 1s;
+  opacity: 0.6;
+  
+}
+
+#cc {
+  position: relative;
+  width: 50vh;
+  height: 50vh;
+  border-radius: 5%;
+  overflow: hidden;
+  	
+  animation: pulse 6s infinite;
+  animation-timing-function: linear;
+}
+
+#cc #two {
+  transform: translate(0px, 75px);
+}
+#cc #three {
+  transform: translate(0px, -75px);
+}
+#cc #four {
+  transform: translate(75px, 0px);
+}
+#cc #five {
+  transform: translate(-75px, 0px);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes circle-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1deg);
+  }
+}

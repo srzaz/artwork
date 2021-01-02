@@ -1,16 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './components/Home.jsx';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from V2</h1>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header>
+          <div id="circle-container">
+            <h1>my artwork</h1>
+            <div id="cc">
+              <div class="circle" id="five"></div>
+              <div class="circle" id="four"></div>
+              <div class="circle" id="three"></div>
+              <div class="circle" id="two"></div>
+              <div class="circle" id="one"></div>
+            </div>
+          </div>
+        </header>
+        <Router>
+          <Switch>
+            <Route path="/" exact component={() => <Home />} />
+          </Switch>
+        </Router>
+      </div>
+    );
+  }
 }
-
 export default App;
