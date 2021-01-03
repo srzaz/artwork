@@ -1,5 +1,5 @@
 import blu from '../assets/blu.jpg';
-import four from '../assets/four.jpg';
+import corner from '../assets/corner.jpg';
 import surreal from '../assets/surreal.jpg';
 import tsquare from '../assets/timessquare.jpg';
 
@@ -11,8 +11,8 @@ const ARTWORK = [
   },
   {
     id: 2,
-    title: 'four',
-    image: four,
+    title: 'corner',
+    image: corner,
   },
   {
     id: 3,
