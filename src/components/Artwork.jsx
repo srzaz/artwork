@@ -5,11 +5,11 @@ import 'react-awesome-slider/dist/styles.css';
 
 class Artwork extends Component {
     render() {
-        const { title, image } = this.props.art;
+        const { title, image, year } = this.props.art;
 
         return (
             <div style={{ display: 'inline-block' }}>
-                <h2>{title}</h2>
+                <h2>{title} ({year})</h2>
 
                 <a href={"#" + title}>
                     <div class="art-card">

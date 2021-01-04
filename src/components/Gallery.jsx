@@ -1,27 +1,22 @@
 import React from "react";
-import ArtGallery from './ArtGallery';
+import Artwork from './Artwork.jsx';
 import 'react-awesome-slider/dist/styles.css';
 
 
 function Gallery() {
     return (
         <div className="home">
-            <header>
-                <div id="circle-container-gallery">
-
-                    <div class="container">
-
-                        <div class="col-lg-7">
-                            <hr />
-                            <ArtGallery />
-                            <hr />
-                        </div>
-
+            <div class="container">
+                <div class="row align-items-center my-7">
+                    <div class="col-lg-10">
+                        <hr />
+                        <Artwork />
+                        <hr />
                     </div>
                 </div>
-            </header>
+            </div>
 
-        </div >
+        </div>
     );
 }
 

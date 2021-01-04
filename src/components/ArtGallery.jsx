@@ -9,7 +9,6 @@ class ArtGalleries extends Component {
     render() {
         return (
             <div>
-                <h2>Gallery</h2>
                 <div >
                     <AwesomeSlider>
                         {
@@ -19,8 +18,6 @@ class ArtGalleries extends Component {
                                 );
                             })
                         }
-
-
                     </AwesomeSlider>
                 </div>
 
