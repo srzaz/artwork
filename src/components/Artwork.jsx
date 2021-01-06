@@ -14,7 +14,6 @@ class Artwork extends Component {
                     <a href={"#" + title}>
                         <img src={image} alt={title} style={{ width: '100%', height: '100%' }} />
                     </a>
-                    <hr />
 
                 </div>
                 <a href="#" class="lightbox" id={title}>
