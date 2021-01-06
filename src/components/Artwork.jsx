@@ -8,17 +8,15 @@ class Artwork extends Component {
         const { title, image, year } = this.props.art;
 
         return (
-            <div style={{ display: 'inline-block' }}>
+            <div style={{ display: 'inline-block', width: '50%', height: '50%' }}>
                 <h2>{title} ({year})</h2>
+                <div class="thumb">
+                    <a href={"#" + title}>
+                        <img src={image} alt={title} style={{ width: '100%', height: '100%' }} />
+                    </a>
+                    <hr />
 
-                <a href={"#" + title}>
-                    <div class="art-card">
-                        <img src={image} alt='profile' style={{ width: '100%', height: '100%' }} />
-                    </div>
-                </a>
-                <hr />
-
-
+                </div>
                 <a href="#" class="lightbox" id={title}>
                     <span style={{ backgroundImage: `url(${image})` }}></span>
                 </a>
