@@ -7,7 +7,7 @@ function Home() {
         <div className="home">
             <header>
                 <div id="circle-container">
-                    <h1>my artwork</h1>
+                    <h1>Stephen Zazueta</h1>
                     <a href="gallery">
                         <div id="cc">
                             <div class="circle" id="five"></div>
