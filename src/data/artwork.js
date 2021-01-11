@@ -4,6 +4,8 @@ import surreal from '../assets/surreal.jpg';
 import tsquare from '../assets/timessquare.jpg';
 import pixels from '../assets/pixels.jpg';
 import bnw from '../assets/bnw.jpg';
+import planet from '../assets/eyeinspace.gif';
+import planet2 from '../assets/planet.gif';
 
 const ARTWORK = [
   {
@@ -41,6 +43,18 @@ const ARTWORK = [
     title: 'mickey mouse',
     image: bnw,
     year: 2020,
+  },
+  {
+    id: 7,
+    title: 'planet',
+    image: planet,
+    year: 2021,
+  },
+  {
+    id: 8,
+    title: 'planet2',
+    image: planet2,
+    year: 2021,
   },
 ];
 
