@@ -10,7 +10,7 @@ import planet2 from '../assets/planet.gif';
 const ARTWORK = [
   {
     id: 1,
-    title: 'drip',
+    title: 'blue elephant',
     image: blu,
     year: 2019,
   },
