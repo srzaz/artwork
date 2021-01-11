@@ -16,7 +16,7 @@ const ARTWORK = [
   },
   {
     id: 2,
-    title: '4world',
+    title: 'corner',
     image: corner,
     year: 2019,
   },
@@ -34,24 +34,12 @@ const ARTWORK = [
   },
   {
     id: 5,
-    title: 'pixels',
-    image: pixels,
-    year: 2020,
-  },
-  {
-    id: 6,
-    title: 'mickey mouse',
-    image: bnw,
-    year: 2020,
-  },
-  {
-    id: 7,
     title: 'planet',
     image: planet,
     year: 2021,
   },
   {
-    id: 8,
+    id: 6,
     title: 'planet2',
     image: planet2,
     year: 2021,
