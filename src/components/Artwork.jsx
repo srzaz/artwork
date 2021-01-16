@@ -9,7 +9,7 @@ class Artwork extends Component {
 
         return (
             <div style={{ display: 'inline-block', width: '50%', height: '50%' }}>
-                <h2>{title} ({year})</h2>
+                <h2>({year})</h2>
                 <div class="thumb">
                     <a href={"#" + title}>
                         <img src={image} alt={title} style={{ width: '100%', height: '100%' }} />
