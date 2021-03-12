@@ -1,11 +1,12 @@
 import blu from '../assets/blu.jpg';
 import corner from '../assets/corner.jpg';
 import surreal from '../assets/surreal.jpg';
-import tsquare from '../assets/timessquare.jpg';
+import tsquare from '../assets/timesquarerefined.gif';
 import pixels from '../assets/pixels.jpg';
 import bnw from '../assets/bnw.jpg';
 import planet from '../assets/eyeinspace.gif';
 import planet2 from '../assets/planet.gif';
+import clubnight from '../assets/clubnightsfin.gif';
 
 const ARTWORK = [
   {
@@ -16,9 +17,9 @@ const ARTWORK = [
   },
   {
     id: 2,
-    title: 'corner',
-    image: corner,
-    year: 2019,
+    title: 'tsquare',
+    image: tsquare,
+    year: 2020,
   },
   {
     id: 3,
@@ -29,9 +30,9 @@ const ARTWORK = [
 
   {
     id: 5,
-    title: 'pixels',
-    image: pixels,
-    year: 2020,
+    title: 'club nights',
+    image: clubnight,
+    year: 2021,
   },
   {
     id: 6,
