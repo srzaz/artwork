@@ -1,12 +1,10 @@
 import blu from '../assets/blu.jpg';
-import corner from '../assets/corner.jpg';
 import surreal from '../assets/surreal.jpg';
 import tsquare from '../assets/timesquarerefined.gif';
-import pixels from '../assets/pixels.jpg';
-import bnw from '../assets/bnw.jpg';
 import planet from '../assets/eyeinspace.gif';
 import planet2 from '../assets/planet.gif';
 import clubnight from '../assets/clubnightsfin.gif';
+import imfine from '../assets/powercolor2.jpg';
 
 const ARTWORK = [
   {
@@ -44,6 +42,12 @@ const ARTWORK = [
     id: 7,
     title: 'planet2',
     image: planet2,
+    year: 2021,
+  },
+  {
+    id: 8,
+    title: 'imfine',
+    image: imfine,
     year: 2021,
   },
 ];
