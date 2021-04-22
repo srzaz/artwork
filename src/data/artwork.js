@@ -4,7 +4,7 @@ import tsquare from '../assets/timesquarerefined.gif';
 import planet from '../assets/eyeinspace.gif';
 import planet2 from '../assets/planet.gif';
 import clubnight from '../assets/clubnightsfin.gif';
-import imfine from '../assets/powercolor2.jpg';
+import imfine from '../assets/powercoloremotion.gif';
 
 const ARTWORK = [
   {
